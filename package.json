@@ -9,6 +9,12 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "node-sass": "^5.0.0",
+    "pug": "^3.0.0",
+    "pug-filters": "^4.0.0",
+    "pug-loader": "^2.4.0",
+    "sass": "^1.30.0",
+    "sass-loader": "^10.1.0",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",
     "vuex": "^4.0.0-0"
