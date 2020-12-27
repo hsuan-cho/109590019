@@ -89,6 +89,7 @@
   .middownleftgrayrec
   .middownredrec
   .midbottombluerec
+  .greenrec
   .speech0528_white
   .class0526_white
   .classVRart_white
@@ -98,6 +99,22 @@
   .tec_object526_white
   .tec_objectAndimage_class {{ tec_objectAndimage_class }}
   .speech05 {{ speech05 }}
+  .five {{ five }}
+  .fb {{ fb }}
+  .c2020 {{ c2020 }}
+  .QuestionA {{ QuestionA }}
+  .introduce {{ introduce }}
+  .classes {{ classes }}
+  .change {{ change }}
+  .build {{ build }}
+  .artte {{ artte }}
+  .drawte {{ drawte }}
+  .musicte {{ musicte }}
+  .elete {{ elete }}
+  .ath {{ ath }}
+  .interact {{ interact }}
+  .energy {{ energy }}
+  .sound {{ sound }}
 </template>
 
 <script>
@@ -202,44 +219,28 @@ export default {
         國立清華大學藝術學院學士班公開徵求\
         班主任候選人啓事 一、依據…\
         Read more',
+      five: '“春之清華”卓越獎學金(5名)',
+      fb: '學士班FB粉絲頁(new)',
+      c2020: '2020招生',
+      QuestionA: '招生Q&A',
+      introduce: '學士班簡介',
+      classes: '學士班課程',
+      change: '國際交換',
+      build: '藝術學院大樓(new)',
+      artte: '學士班師資',
+      drawte: '藝設系師資',
+      musicte: '音樂系師資',
+      elete: '電資學院師資',
+      ath: '數位文創作品',
+      interact: '互動藝術作品',
+      energy: '動力藝術作品',
+      sound: '聲音藝術作品',
     }
   }
 }
 </script>
 
 <style lang="sass">
-.l3rec
-  position: absolute
-  width: 20px
-  height: 98px
-  left: calc(50% - 20px/2 - 712px)
-  top: calc(50% - 98px/2 + 1268px)
-  background: linear-gradient(180deg, #382111 0%, #1A0D07 57.27%)
-
-.l1rec
-  position: absolute
-  width: 20px
-  height: 92px
-  left: calc(50% - 20px/2 - 712px)
-  top: calc(50% - 92px/2 + 779px)
-  background: linear-gradient(180deg, #140A01 0%, #55170A 57.27%)
-
-.r4rec
-  position: absolute
-  width: 20px
-  height: 55px
-  left: calc(50% - 20px/2 + 710px)
-  top: calc(50% - 55px/2 + 1759.5px)
-  background: linear-gradient(180deg, #9A9253 0%, #63583A 57.27%)
-
-.r3rec
-  position: absolute
-  width: 20px
-  height: 55px
-  left: calc(50% - 20px/2 + 710px)
-  top: calc(50% - 55px/2 + 1268.5px)
-  background: linear-gradient(180deg, #CCD793 0%, #BAD392 57.27%)
-
 .desk1
   position: relative
   width: 1440px
@@ -984,9 +985,9 @@ export default {
 .desk4
   position: relative
   width: 1440px
-  height: 1023px
+  height: 1460px
   left: calc(50% - 1440px/2)
-  top: calc(50% - 1023px/2 + 1534.5px)
+  top: calc(50% - 1460px/2 + 1534.5px)
   background: #FFFFFF
 
 .speech05
@@ -994,7 +995,7 @@ export default {
   width: 393px
   height: 90px
   left: calc(50% - 393px/2 - 5px)
-  top: calc(50% - 90px/2 - 296px)
+  top: calc(50% - 90px/2 - 516px)
   font-family: Merienda
   font-style: normal
   font-weight: bold
@@ -1010,7 +1011,7 @@ export default {
   width: 365px
   height: 99px
   left: calc(50% - 365px/2 + 250px)
-  top: calc(50% - 99px/2 - 35px)
+  top: calc(50% - 99px/2 - 255px)
   font-family: Merienda
   font-style: normal
   font-weight: bold
@@ -1026,7 +1027,7 @@ export default {
   width: 360px
   height: 101px
   left: calc(50% - 330px/2 + 230px)
-  top: calc(50% - 101px/2 - 55px)
+  top: calc(50% - 101px/2 - 275px)
   background: rgba(255, 255, 255, 0.6)
 
 .tec_object526
@@ -1034,7 +1035,7 @@ export default {
   width: 375px
   height: 64px
   left: calc(50% - 375px/2 - 505px)
-  top: calc(50% - 64px/2 - 295px)
+  top: calc(50% - 64px/2 - 515px)
   font-family: Merienda
   font-style: normal
   font-weight: bold
@@ -1050,7 +1051,7 @@ export default {
   width: 362px
   height: 61px
   left: calc(50% - 362px/2 - 253px)
-  top: calc(50% - 61px/2 - 54px)
+  top: calc(50% - 61px/2 - 275px)
   font-family: Merienda
   font-style: normal
   font-weight: bold
@@ -1066,7 +1067,7 @@ export default {
   width: 296px
   height: 98px
   left: calc(50% - 296px/2 + 491px)
-  top: calc(50% - 98px/2 - 289px)
+  top: calc(50% - 98px/2 - 509px)
   font-family: Merienda
   font-style: normal
   font-weight: bold
@@ -1082,7 +1083,7 @@ export default {
   width: 353px
   height: 72px
   left: calc(50% - 353px/2 - 250px)
-  top: calc(50% - 72px/2 - 55px)
+  top: calc(50% - 72px/2 - 275px)
   background: rgba(255, 255, 255, 0.2)
 
 .class0526_white
@@ -1090,7 +1091,7 @@ export default {
   width: 300px
   height: 117px
   left: calc(50% - 300px/2 + 490px)
-  top: calc(50% - 117px/2 - 300px)
+  top: calc(50% - 117px/2 - 520px)
   background: rgba(255, 255, 255, 0.2)
 
 .speech0528_white
@@ -1098,7 +1099,7 @@ export default {
   width: 397px
   height: 84px
   left: calc(50% - 397px/2 - 5px)
-  top: calc(50% - 84px/2 - 303px)
+  top: calc(50% - 84px/2 - 523px)
   background: rgba(255, 255, 255, 0.6)
 
 .midbottombluerec
@@ -1106,7 +1107,7 @@ export default {
   width: 73.63px
   height: 73.63px
   left: calc(50% - 73.63px/2 - 5px)
-  top: calc(50% - 73.63px/2 + 320px)
+  top: calc(50% - 73.63px/2 + 90px)
   background: #5CA7CC
   transform: rotate(-45deg)
 
@@ -1114,9 +1115,19 @@ export default {
   position: absolute
   width: 52.69px
   height: 52.69px
-  left: calc(50% - 52.69px/2 + 155px)
-  top: calc(50% - 52.69px/2 + 150px)
+  left: calc(50% - 52.69px/2 + 150px)
+  top: calc(50% - 52.69px/2 - 75px)
   background: #E76A6A
+  transform: rotate(-45deg)
+
+.greenrec
+  position: absolute
+  width: 170px
+  height: 170px
+  left: calc(50% - 170px/2 - 400px)
+  top: calc(50% - 170px/2 + 135px)
+
+  background: #6DF390
   transform: rotate(-45deg)
 
 .middownleftgrayrec
@@ -1124,7 +1135,7 @@ export default {
   width: 74.26px
   height: 74.26px
   left: calc(50% - 74.26px/2 - 320px)
-  top: calc(50% - 74.26px/2 + 200px)
+  top: calc(50% - 74.26px/2 - 20px)
   background: rgba(168, 165, 165, 0.4)
   transform: rotate(-45deg)
 
@@ -1133,7 +1144,7 @@ export default {
   width: 161.21px
   height: 161.21px
   left: calc(50% - 161.21px/2 - 510px)
-  top: calc(50% - 161.21px/2 + 70px)
+  top: calc(50% - 161.21px/2 - 150px)
   background: #FFF9B9
   transform: rotate(-45deg)
 
@@ -1141,8 +1152,8 @@ export default {
   position: absolute
   width: 215.02px
   height: 215.02px
-  left: calc(50% - 215.02px/2 - 7px)
-  top: calc(50% - 215.02px/2 + 105px)
+  left: calc(50% - 215.02px/2 - 5px)
+  top: calc(50% - 215.02px/2 - 120px)
   background: #A8A5A5
   transform: rotate(-45deg)
 
@@ -1150,8 +1161,8 @@ export default {
   position: absolute
   width: 157.63px
   height: 157.63px
-  left: calc(50% - 157.63px/2 - 255px)
-  top: calc(50% - 157.63px/2 - 445px)
+  left: calc(50% - 157.63px/2 - 258px)
+  top: calc(50% - 157.63px/2 - 660px)
   background: #D9D6D6
   transform: rotate(-45deg)
 
@@ -1160,7 +1171,7 @@ export default {
   width: 101px
   height: 100px
   left: calc(50% - 101px/2 + 615px)
-  top: calc(50% - 100px/2 + 405px)
+  top: calc(50% - 100px/2 + 420px)
   background: url(../assets/cropped-NTHU-logo.png)
 
 .bottomline
@@ -1168,18 +1179,18 @@ export default {
   width: 1189px
   height: 0px
   left: calc(50% - 1189px/2 - 78.5px)
-  top: calc(50% - 0px/2 + 427.5px)
+  top: calc(50% - 0px/2 + 267.5px)
   border: 1px solid #000000
 
 .HOME2
   position: absolute
   width: 86px
   height: 43px
-  left: calc(50% - 86px/2 - 360px)
-  top: calc(50% - 43px/2 + 463px)
+  left: calc(50% - 86px/2 - 622px)
+  top: calc(50% - 43px/2 + 373px)
   font-family: Merienda
   font-style: normal
-  font-weight: normal
+  font-weight: bold
   font-size: 18px
   line-height: 142.69%
 
@@ -1191,11 +1202,11 @@ export default {
   position: absolute
   width: 50px
   height: 43px
-  left: calc(50% - 50px/2 - 65px)
-  top: calc(50% - 43px/2 + 463px)
+  left: calc(50% - 50px/2 - 360px)
+  top: calc(50% - 43px/2 + 327px)
   font-family: Merienda
   font-style: normal
-  font-weight: normal
+  font-weight: bold
   font-size: 18px
   line-height: 142.69%
 
@@ -1207,11 +1218,11 @@ export default {
   position: absolute
   width: 75px
   height: 43px
-  left: calc(50% - 75px/2 + 70px)
-  top: calc(50% - 43px/2 + 463px)
+  left: calc(50% - 75px/2 - 40px)
+  top: calc(50% - 43px/2 + 325px)
   font-family: Merienda
   font-style: normal
-  font-weight: normal
+  font-weight: bold
   font-size: 18px
   line-height: 142.69%
 
@@ -1223,11 +1234,11 @@ export default {
   position: absolute
   width: 59px
   height: 43px
-  left: calc(50% - 59px/2 + 208px)
-  top: calc(50% - 43px/2 + 463px)
+  left: calc(50% - 59px/2 + 200px)
+  top: calc(50% - 43px/2 + 325px)
   font-family: Merienda
   font-style: normal
-  font-weight: normal
+  font-weight: bold
   font-size: 18px
   line-height: 142.69%
 
@@ -1239,11 +1250,11 @@ export default {
   position: absolute
   width: 103px
   height: 43px
-  left: calc(50% - 103px/2 + 355px)
-  top: calc(50% - 43px/2 + 463px)
+  left: calc(50% - 103px/2 + 420px)
+  top: calc(50% - 43px/2 + 326px)
   font-family: Merienda
   font-style: normal
-  font-weight: normal
+  font-weight: bold
   font-size: 18px
   line-height: 142.69%
 
@@ -1255,11 +1266,11 @@ export default {
   position: absolute
   width: 59px
   height: 43px
-  left: calc(50% - 59px/2 + 500px)
-  top: calc(50% - 43px/2 + 463px)
+  left: calc(50% - 59px/2 - 636px)
+  top: calc(50% - 43px/2 + 465px)
   font-family: Merienda
   font-style: normal
-  font-weight: normal
+  font-weight: bold
   font-size: 18px
   line-height: 142.69%
 
@@ -1271,11 +1282,11 @@ export default {
   position: absolute
   width: 103px
   height: 43px
-  left: calc(50% - 103px/2 - 210px)
-  top: calc(50% - 43px/2 + 463px)
+  left: calc(50% - 103px/2 - 617px)
+  top: calc(50% - 43px/2 + 422px)
   font-family: Merienda
   font-style: normal
-  font-weight: normal
+  font-weight: bold
   font-size: 18px
   line-height: 142.69%
 
@@ -1287,11 +1298,11 @@ export default {
   position: absolute
   width: 269px
   height: 43px
-  left: calc(50% - 269px/2 - 575px)
-  top: calc(50% - 43px/2 + 463px)
+  left: calc(50% - 269px/2 - 560px)
+  top: calc(50% - 43px/2 + 325px)
   font-family: Merienda
   font-style: normal
-  font-weight: normal
+  font-weight: bold
   font-size: 18px
   line-height: 142.69%
 
@@ -1313,7 +1324,7 @@ export default {
   width: 322px
   height: 93px
   left: calc(50% - 322px/2 + 497px)
-  top: calc(50% - 93px/2 + 187px)
+  top: calc(50% - 93px/2 - 17px)
   font-family: Merienda
   font-style: normal
   font-weight: bold
@@ -1329,7 +1340,7 @@ export default {
   width: 375px
   height: 84px
   left: calc(50% - 375px/2 - 502.5px)
-  top: calc(50% - 84px/2 - 300px)
+  top: calc(50% - 84px/2 - 520px)
   background: rgba(255, 255, 255, 0.6)
 
 .NTUH_IPTA_public_white
@@ -1337,7 +1348,7 @@ export default {
   width: 336px
   height: 101px
   left: calc(50% - 336px/2 + 490px)
-  top: calc(50% - 101px/2 + 180px)
+  top: calc(50% - 101px/2 - 30px)
   background: rgba(255, 255, 255, 0.6)
 
 .left2Group
@@ -1387,26 +1398,282 @@ export default {
   background: url(../assets/5e7987.jpg)
   transform: rotate(-45deg)
 
+.five
+  position: absolute
+  width: 239px
+  height: 28px
+  left: calc(50% - 239px/2 - 259px)
+  top: calc(50% - 28px/2 + 355px)
+
+  font-family: Merienda
+  font-style: normal
+  font-weight: normal
+  font-size: 18px
+  line-height: 142.69%
+  /* or 26px */
+  letter-spacing: 0.06em
+  color: #000000
+
+.fb
+  position: absolute
+  width: 198px
+  height: 28px
+  left: calc(50% - 198px/2 - 282px)
+  top: calc(50% - 28px/2 + 389px)
+
+  font-family: Merienda
+  font-style: normal
+  font-weight: normal
+  font-size: 18px
+  line-height: 142.69%
+  /* or 26px */
+  letter-spacing: 0.06em
+  color: #000000
+
+.c2020
+  position: absolute
+  width: 93px
+  height: 28px
+  left: calc(50% - 93px/2 - 334.5px)
+  top: calc(50% - 28px/2 + 425px)
+
+  font-family: Merienda
+  font-style: normal
+  font-weight: normal
+  font-size: 18px
+  line-height: 142.69%
+  /* or 26px */
+  letter-spacing: 0.06em
+  color: #000000
+
+.QuestionA
+  position: absolute
+  width: 93px
+  height: 28px
+  left: calc(50% - 93px/2 - 334.5px)
+  top: calc(50% - 28px/2 + 458px)
+
+  font-family: Merienda
+  font-style: normal
+  font-weight: normal
+  font-size: 18px
+  line-height: 142.69%
+  /* or 26px */
+  letter-spacing: 0.06em
+  color: #000000
+
+.introduce
+  position: absolute
+  width: 105px
+  height: 28px
+  left: calc(50% - 105px/2 - 21px)
+  top: calc(50% - 28px/2 + 355px)
+
+  font-family: Merienda
+  font-style: normal
+  font-weight: normal
+  font-size: 18px
+  line-height: 142.69%
+  /* or 26px */
+  letter-spacing: 0.06em
+  color: #000000
+
+.classes
+  position: absolute
+  width: 105px
+  height: 34px
+  left: calc(50% - 105px/2 - 21px)
+  top: calc(50% - 34px/2 + 393px)
+
+  font-family: Merienda
+  font-style: normal
+  font-weight: normal
+  font-size: 18px
+  line-height: 142.69%
+  /* or 26px */
+  letter-spacing: 0.06em
+  color: #000000
+
+.change
+  position: absolute
+  width: 105px
+  height: 28px
+  left: calc(50% - 105px/2 - 31px)
+  top: calc(50% - 28px/2 + 425px)
+
+  font-family: Merienda
+  font-style: normal
+  font-weight: normal
+  font-size: 18px
+  line-height: 142.69%
+  /* or 26px */
+  letter-spacing: 0.06em
+  color: #000000
+
+.build
+  position: absolute
+  width: 174px
+  height: 28px
+  left: calc(50% - 174px/2 + 12px)
+  top: calc(50% - 28px/2 + 459px)
+
+  font-family: Merienda
+  font-style: normal
+  font-weight: normal
+  font-size: 18px
+  line-height: 142.69%
+  /* or 26px */
+  letter-spacing: 0.06em
+  color: #000000
+
+.artte
+  position: absolute
+  width: 105px
+  height: 28px
+  left: calc(50% - 105px/2 + 228px)
+  top: calc(50% - 28px/2 + 355px)
+
+  font-family: Merienda
+  font-style: normal
+  font-weight: normal
+  font-size: 18px
+  line-height: 142.69%
+  /* or 26px */
+  letter-spacing: 0.06em
+  color: #000000
+
+.drawte
+  position: absolute
+  width: 105px
+  height: 28px
+  left: calc(50% - 105px/2 + 228px)
+  top: calc(50% - 28px/2 + 390px)
+
+  font-family: Merienda
+  font-style: normal
+  font-weight: normal
+  font-size: 18px
+  line-height: 142.69%
+  /* or 26px */
+  letter-spacing: 0.06em
+  color: #000000
+
+.musicte
+  position: absolute
+  width: 105px
+  height: 28px
+  left: calc(50% - 105px/2 + 228px)
+  top: calc(50% - 28px/2 + 425px)
+
+  font-family: Merienda
+  font-style: normal
+  font-weight: normal
+  font-size: 18px
+  line-height: 142.69%
+  /* or 26px */
+  letter-spacing: 0.06em
+  color: #000000
+
+.elete
+  position: absolute
+  width: 118px
+  height: 28px
+  left: calc(50% - 118px/2 + 238px)
+  top: calc(50% - 28px/2 + 459px)
+
+  font-family: Merienda
+  font-style: normal
+  font-weight: normal
+  font-size: 18px
+  line-height: 142.69%
+  /* or 26px */
+  letter-spacing: 0.06em
+  color: #000000
+
+.ath
+  position: absolute
+  width: 121px
+  height: 35px
+  left: calc(50% - 121px/2 + 439.5px)
+  top: calc(50% - 35px/2 + 359px)
+
+  font-family: Merienda
+  font-style: normal
+  font-weight: normal
+  font-size: 18px
+  line-height: 142.69%
+  /* or 26px */
+  letter-spacing: 0.06em
+  color: #000000
+
+.interact
+  position: absolute
+  width: 121px
+  height: 35px
+  left: calc(50% - 121px/2 + 439.5px)
+  top: calc(50% - 35px/2 + 393px)
+
+  font-family: Merienda
+  font-style: normal
+  font-weight: normal
+  font-size: 18px
+  line-height: 142.69%
+  /* or 26px */
+  letter-spacing: 0.06em
+  color: #000000
+
+.energy
+  position: absolute
+  width: 130px
+  height: 26px
+  left: calc(50% - 114px/2 + 432px)
+  top: calc(50% - 26px/2 + 423px)
+
+  font-family: Merienda
+  font-style: normal
+  font-weight: normal
+  font-size: 18px
+  line-height: 142.69%
+  /* identical to box height, or 26px */
+  letter-spacing: 0.06em
+  color: #000000
+
+.sound
+  position: absolute
+  width: 121px
+  height: 35px
+  left: calc(50% - 121px/2 + 440px)
+  top: calc(50% - 35px/2 + 463px)
+
+  font-family: Merienda
+  font-style: normal
+  font-weight: normal
+  font-size: 18px
+  line-height: 142.69%
+  /* or 26px */
+  letter-spacing: 0.06em
+  color: #000000
+
 .back
   position: absolute
   width: 1402px
-  height: 1015px
+  height: 1280px
   left: calc(50% - 1402px/2 - 5px)
-  top: calc(50% - 1015px/2 - 37px)
+  top: calc(50% - 1190px/2 - 175px)
   background: #ECECEC
 
 .backshining2
   position: absolute
   width: 1440px
-  height: 1024px
+  height: 1300px
   left: calc(50% - 1902px/2 + 226px)
-  top: calc(50% - 1247px/2 + 96px)
+  top: calc(50% - 1200px/2 - 170px)
   background: url(../assets/pexels-pixabay-220067.jpg)
 
 .frame
   position: relative
   width: 1440px
-  height: 4096px
+  height: 4200px
   background: #FFFFFF
   opacity: 0
 </style>
